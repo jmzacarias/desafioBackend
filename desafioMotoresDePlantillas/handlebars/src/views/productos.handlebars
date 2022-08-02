@@ -1,0 +1,10 @@
+<div>
+    <h1>Estos son lor productos disponibles</h1>
+    {{#each productos}}
+        <div>
+            <p>{{this.producto}}</p>
+            <p>Precio: ${{this.price}}</p>
+            <img src="http://localhost:8080/img/{{this.thumbnail}}" alt="">
+        </div>
+    {{/each}}
+</div>

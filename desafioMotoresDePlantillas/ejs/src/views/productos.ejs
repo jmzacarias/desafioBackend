@@ -1,0 +1,5 @@
+<% productos.forEach(producto => { %>
+    <p><%= producto.producto %> </p>
+    <p>Precio: $<%= producto.precio %> </p>
+    <img src="http://localhost:8080/img/"+<%=producto.thumbnail %>  alt="">
+<% }) %>

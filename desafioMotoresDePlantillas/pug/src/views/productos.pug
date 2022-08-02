@@ -1,0 +1,7 @@
+div
+    h1 Estos son los productos disponibles
+    each producto in productos
+        div
+            p=producto.producto
+            p=Precio:$ producto.precio
+            img(src="http://localhost:8080/img/"+producto.thumbnail , alt="")
