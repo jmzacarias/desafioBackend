@@ -4,7 +4,7 @@ import __dirname from './utils.js';
 import fs from 'fs';
 import handlebars from 'express-handlebars';
 import viewsRouter from './routes/views.router.js';
-import formRouter from './routes/form.routes.js';
+import formRouter from './routes/form.router.js';
 
 const path = (__dirname+'/files/objetos.json')
 

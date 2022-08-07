@@ -7,5 +7,5 @@ form.addEventListener('submit', event=>{
     fetch('/api/form',{
         method:'POST',
         body:formData
-    }).then(res=>res.json()).then(json=>console.log(json));
+    }).then(console.log(formData)).then(res=>res.json()).then(json=>console.log(json));
 })

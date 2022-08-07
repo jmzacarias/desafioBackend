@@ -8,4 +8,4 @@ form.addEventListener('submit', event=>{
         method:'POST',
         body:formData
     }).then(res=>res.json()).then(json=>console.log(json));
-})
+}) 
