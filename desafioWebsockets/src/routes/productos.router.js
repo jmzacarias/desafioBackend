@@ -1,7 +1,8 @@
 import { Router } from "express";
-import Contenedor from "../contenedores/contenedor.js";
+import __dirname from "../utils.js";
 import { uploader } from "../utils.js";
- 
+import Contenedor from "../contenedores/contenedor.js"
+
 const router = Router();
 const objectService = new Contenedor();
 
@@ -16,10 +17,8 @@ router.post('/', uploader.single('img'), async(req,res)=>{
         precio,
         thumbnail: req.file.filename
     }
-
-    console.log(clientProduct);
     await objectService.save(clientProduct);
     res.send({status: 'succes', message: `producto ${clientProduct.producto} añadido`})
 })
 
-export default router; 
+export default router

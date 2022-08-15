@@ -1,0 +1,39 @@
+
+<div>
+    <h1>La verdulería</h1>
+    <div id="formContainer">
+        <h2>Agregue productos</h2>
+        <form id="productForm" style="width">
+            <label for="producto">Producto</label>
+            <input id="producto" name="producto"><br>
+            <label for="precio">Precio</label>
+            <input id="precio" name="precio"><br>
+            <label for="img">Imagen</label>
+            <input type="file" id="img" name="img">
+            <input type="submit">
+        </form>
+    </div>
+    <div>
+        <h2>Estos son los productos disponibles</h2>
+        <div id="productsContainer">
+            {{#each productos}}
+            <div>
+                <p>{{this.producto}}</p>
+                <p>Precio: ${{this.precio}}</p>
+                <img src="http://localhost:8080/img/{{this.thumbnail}}" alt="">
+            </div>
+            {{/each}}
+        </div>
+    </div>
+       
+   <div>
+        <h2>Centro de mensajes</h2>
+        <input id="chatbox"> 
+        <input id="enviar" type="submit">
+        </br>
+        <span id="log"></span>
+    </div>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="../js/productos.js"></script>

@@ -4,5 +4,143 @@
 		"precio": "342",
 		"thumbnail": "1659901233556-Batata.webp",
 		"id": 1
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660415988206-banana.webp",
+		"id": 2
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416064700-banana.webp",
+		"id": 3
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416094352-banana.webp",
+		"id": 4
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416095937-banana.webp",
+		"id": 5
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416096610-banana.webp",
+		"id": 6
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416096628-banana.webp",
+		"id": 7
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416096637-banana.webp",
+		"id": 8
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416097051-banana.webp",
+		"id": 9
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416097070-banana.webp",
+		"id": 10
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416097754-banana.webp",
+		"id": 11
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416097774-banana.webp",
+		"id": 12
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416099743-banana.webp",
+		"id": 13
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416203322-banana.webp",
+		"id": 14
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416204011-banana.webp",
+		"id": 15
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416204472-banana.webp",
+		"id": 16
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416204490-banana.webp",
+		"id": 17
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416204924-banana.webp",
+		"id": 18
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416204940-banana.webp",
+		"id": 19
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416205355-banana.webp",
+		"id": 20
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416205371-banana.webp",
+		"id": 21
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416206622-banana.webp",
+		"id": 22
+	},
+	{
+		"producto": "Banana",
+		"precio": "222",
+		"thumbnail": "1660416208320-banana.webp",
+		"id": 23
+	},
+	{
+		"producto": "lssf23",
+		"precio": "23",
+		"thumbnail": "1660422110111-banana.webp",
+		"id": 24
 	}
 ]
