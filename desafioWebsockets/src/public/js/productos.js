@@ -1,3 +1,4 @@
+
 const form = document.getElementById('productForm');
 
 const socket = io({
@@ -11,21 +12,29 @@ form.addEventListener('submit', event=>{
     fetch('/api/productos',{
         method:'POST',
         body:formData
-    }).then(console.log({formData: formData})).then(res=>res.json()).then(json=>console.log({json: json})).then(socket.emit('newProduct',formData))
+    }).then(console.log({formData: formData})).then(res=>res.json()).then(json=>console.log({json: json})).then(socket.emit('newProduct'))
 })
 
 socket.on('agregarProducto',data=>{
+    console.log(data)
     let productsContainer = document.getElementById('productsContainer');
-    let products = ''
-    data.forEach(prod => {
-        products = products + `<div>
-                                    <p>${prod.producto}</p>
-                                    <p>Precio: ${prod.precio}</p>
-                                    <img src="http://localhost:8080/img/${prod.thumbnail}" alt="">
+    const nuevoContenedor = document.createElement('div');
+    nuevoContenedor.innerHTML = `<div>
+                                    <p>${data.producto}</p>
+                                    <p>Precio: ${data.precio}</p>
+                                    <img src="http://localhost:8080/img/${data.thumbnail}" alt="">
                                 </div>`
-    });
-    console.log(products)
-    productsContainer.innerHTML = products;
+    // let products = ''
+    // data.forEach(prod => {
+    //     products = products + `<div>
+    //                                 <p>${prod.producto}</p>
+    //                                 <p>Precio: ${prod.precio}</p>
+    //                                 <img src="http://localhost:8080/img/${prod.thumbnail}" alt="">
+    //                             </div>`
+    // });
+    // console.log(products)
+    // productsContainer.innerHTML = products;
+    productsContainer.appendChild(nuevoContenedor)
 })
 
 let user;

@@ -1,20 +1,20 @@
 [
 	{
-		"producto": "banana",
-		"precio": "22",
-		"thumbnail": "1660594156875-banana.webp",
+		"producto": "sa",
+		"precio": "3",
+		"thumbnail": "1660607768445-banana.webp",
 		"id": 1
 	},
 	{
-		"producto": "banana",
-		"precio": "22",
-		"thumbnail": "1660594159356-banana.webp",
+		"producto": "durazno",
+		"precio": "55",
+		"thumbnail": "1660607842378-durazno-tiene-multiples-propiedades-medicinales_221238.jpg",
 		"id": 2
 	},
 	{
 		"producto": "banana",
-		"precio": "22",
-		"thumbnail": "1660594160188-banana.webp",
+		"precio": "33",
+		"thumbnail": "1660607997852-durazno-tiene-multiples-propiedades-medicinales_221238.jpg",
 		"id": 3
 	}
 ]

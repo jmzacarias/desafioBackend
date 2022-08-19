@@ -1,0 +1,47 @@
+[
+	{
+		"name": "apio",
+		"price": 23,
+		"thumbnail": "xfcmkfns,",
+		"description": "verdura",
+		"stock": 234,
+		"id": 1,
+		"code": "ZAdYLOK5JxaMOVzXfs0zmJMMu"
+	},
+	{
+		"name": "zanahoria",
+		"price": 45,
+		"thumbnail": "kklleñxckwep",
+		"description": "verdura",
+		"stock": 124,
+		"id": 2,
+		"code": "7HG83uBX0CXhJF3zwS8LS5RtU"
+	},
+	{
+		"name": "ananá",
+		"price": 95,
+		"thumbnail": "fotodeanana.com",
+		"description": "fruta",
+		"stock": 543,
+		"id": 3,
+		"code": "YT1JumJeej2U0znUKnU0VJeAm"
+	},
+	{
+		"name": "palta",
+		"price": 130,
+		"thumbnail": "fotodepaltacom",
+		"description": "fruta",
+		"stock": 72,
+		"id": 4,
+		"code": "JpKkJhrwnN7bnteqcWxZKDZw8"
+	},
+	{
+		"name": "lechuga",
+		"price": 70,
+		"thumbnail": "fotodelechugacom",
+		"description": "verdura",
+		"stock": 92,
+		"id": 5,
+		"code": "kTbCPBkflYuHYsQiacCrTaxyl"
+	}
+]

@@ -37,6 +37,7 @@ io.on('connection', socket=>{
     });
     socket.on('newProduct', async()=>{
         let listado = await objectService.getAll();
-        io.emit('agregarProducto', listado)
+        io.emit('agregarProducto', data)
+        
     })
 })

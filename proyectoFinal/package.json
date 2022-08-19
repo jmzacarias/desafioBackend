@@ -1,6 +1,7 @@
 {
-  "name": "desafioapirestful",
+  "name": "proyectofinal",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
-  },
-  "devDependencies": {},
-  "description": "" 
+  }
 }
