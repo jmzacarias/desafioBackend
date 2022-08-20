@@ -5,6 +5,14 @@ const router = Router();
 
 const productService = new ProductManager;
 
+const user='admin';
+
+const isAdmin = (req,res,next)=>{
+    if(user='admin')
+    next()
+
+}
+
 router.get('/',async(req,res)=>{
     let products = await productService.getAll();
     res.send(products)
@@ -21,7 +29,7 @@ router.get('/:pid',async(req,res)=>{
     }
 })
 
-router.post('/',async(req,res)=>{
+router.post('/', async(req,res)=>{
     let clientProduct = req.body;
     if(!clientProduct.price){return res.status(400).send({error:`Product price is missing`})}
     if(!clientProduct.stock){return res.status(400).send({error:`Product stock is missing`})}
@@ -56,7 +64,7 @@ router.delete('/:pid',async(req,res)=>{
     if(isNaN(productId)) return res.status(400).send({error: `PARAM must be a number`});
     let product = await productService.getById(parseInt(productId));
     if(!product){
-        return res.status(400).send(`There's no product whith ID: ${productId}`)
+        return res.status(400).send({error: `There's no product whith ID: ${productId}`})
     }else{
         await productService.deleteById(productId)
         res.send({status: `Deleted product`})

@@ -25,5 +25,23 @@
 		"description": "verdura",
 		"id": 3,
 		"code": "7lmt3sRgMkTWxLHx44v1NRWOS"
+	},
+	{
+		"name": "jengibre",
+		"stock": 666,
+		"description": "verdura",
+		"price": 95,
+		"thumbnail": "fotodejengibre",
+		"id": 4,
+		"code": "LkFUlmti3NcDQ91qgKzavB1tb"
+	},
+	{
+		"name": "anana",
+		"stock": 485,
+		"description": "fruta",
+		"price": 59,
+		"thumbnail": "fotodeanana",
+		"id": 5,
+		"code": "47id7sBEu3LHVLDkbD7ti9KB7"
 	}
 ]

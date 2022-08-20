@@ -110,6 +110,7 @@ class CartManager{
             let cart = await this.getById(id);
             let products = await productService.getAll();
             let cartDetail = [] ;
+            if(cart.products.length > 0){
             cart.products.forEach((element) => {
                 let prodInCart = {}
                 let index = products.findIndex(e=>e.id===element.id)
@@ -118,9 +119,11 @@ class CartManager{
                 prodInCart.thumbnail = products[index].thumbnail;
                 prodInCart.code = products[index].code;
                 prodInCart.description = products[index].description;
+                prodInCart.quantity = element.quantity;
                 cartDetail.push(prodInCart);
             })
             return cartDetail
+            }else{console.log(`CART ${id} is empty`)}
         } catch (error) {
             console.log(`Cannot show cart: ${error}`)
         }

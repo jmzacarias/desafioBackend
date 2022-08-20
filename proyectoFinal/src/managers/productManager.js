@@ -5,7 +5,6 @@ const path = (__dirname+'/files/products.json');
 
 
 class ProductManager{
-
     createCode = (products)=>{
         let productFiltered;
         let createdCode ='';

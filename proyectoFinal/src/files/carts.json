@@ -2,7 +2,13 @@
 	{
 		"id": 3,
 		"timestamp": "19/8/2022 20:29:22",
-		"products": []
+		"products": [
+			{
+				"id": 3,
+				"timestamp": "20/8/2022 16:56:16",
+				"quantity": 2
+			}
+		]
 	},
 	{
 		"id": 4,
@@ -17,6 +23,22 @@
 	{
 		"id": 6,
 		"timestamp": "19/8/2022 20:41:35",
+		"products": [
+			{
+				"id": 3,
+				"timestamp": "20/8/2022 16:53:37",
+				"quantity": 1
+			}
+		]
+	},
+	{
+		"id": 7,
+		"timestamp": "20/8/2022 16:23:07",
+		"products": []
+	},
+	{
+		"id": 8,
+		"timestamp": "20/8/2022 16:24:14",
 		"products": []
 	}
 ]
