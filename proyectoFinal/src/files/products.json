@@ -1,47 +1,29 @@
 [
 	{
-		"name": "apio",
-		"price": 23,
-		"thumbnail": "xfcmkfns,",
-		"description": "verdura",
-		"stock": 234,
+		"name": "banana",
+		"price": 58,
+		"stock": 324,
+		"thumbnail": "fotodebana.jpg",
+		"description": "fruta",
 		"id": 1,
-		"code": "ZAdYLOK5JxaMOVzXfs0zmJMMu"
+		"code": "2Nh0xfQgV2InNIoIqpzs6ZNBM"
 	},
 	{
-		"name": "zanahoria",
+		"name": "tomate",
 		"price": 45,
-		"thumbnail": "kklleñxckwep",
+		"stock": 987,
+		"thumbnail": "fotodetomate.jpg",
 		"description": "verdura",
-		"stock": 124,
 		"id": 2,
-		"code": "7HG83uBX0CXhJF3zwS8LS5RtU"
-	},
-	{
-		"name": "ananá",
-		"price": 95,
-		"thumbnail": "fotodeanana.com",
-		"description": "fruta",
-		"stock": 543,
-		"id": 3,
-		"code": "YT1JumJeej2U0znUKnU0VJeAm"
-	},
-	{
-		"name": "palta",
-		"price": 130,
-		"thumbnail": "fotodepaltacom",
-		"description": "fruta",
-		"stock": 72,
-		"id": 4,
-		"code": "JpKkJhrwnN7bnteqcWxZKDZw8"
+		"code": "I4YZUgF3SwODjd8i9i0y4RgqC"
 	},
 	{
 		"name": "lechuga",
-		"price": 70,
-		"thumbnail": "fotodelechugacom",
+		"price": 15,
+		"stock": 243,
+		"thumbnail": "fotodelechuga.jpg",
 		"description": "verdura",
-		"stock": 92,
-		"id": 5,
-		"code": "kTbCPBkflYuHYsQiacCrTaxyl"
+		"id": 3,
+		"code": "7lmt3sRgMkTWxLHx44v1NRWOS"
 	}
 ]

@@ -4,7 +4,7 @@ import CartManager from "../managers/cartsManager.js";
 
 const router = Router();
 
-const cartService = new CartManager;
+const cartService = new CartManager; 
 
 
 // POST: '/:cid/products' - Para incorporar productos al carrito por su id de producto
