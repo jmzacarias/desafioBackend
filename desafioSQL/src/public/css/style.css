@@ -1,0 +1,46 @@
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 5%;
+    background-color: gray;
+    color: azure;
+}
+input{
+    width: 90%;
+}
+#productsContainer{
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+img{
+    width: 30%;
+    overflow: auto;
+}
+
+.contenedorMensaje{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email{
+    color:blue;
+    font-weight: bolder;
+}
+.time{
+    color:brown
+}
+
+.message{
+    color: green;
+    font-style: italic;
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"producto": "sa",
+		"precio": "3",
+		"thumbnail": "1660607768445-banana.webp",
+		"id": 1
+	},
+	{
+		"producto": "durazno",
+		"precio": "55",
+		"thumbnail": "1660607842378-durazno-tiene-multiples-propiedades-medicinales_221238.jpg",
+		"id": 2
+	},
+	{
+		"producto": "banana",
+		"precio": "33",
+		"thumbnail": "1660607997852-durazno-tiene-multiples-propiedades-medicinales_221238.jpg",
+		"id": 3
+	}
+]
