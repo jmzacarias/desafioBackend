@@ -6,7 +6,7 @@ let productService = new ProductManager;
 
 const path = (__dirname+'/files/carts.json');
 
-class CartManager{
+class CartManager{ 
     getAll = async()=>{
         try {
             if (fs.existsSync(path)) {

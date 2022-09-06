@@ -6,7 +6,7 @@ export default class Products extends FilesContainer{
         super()
         this.path = __dirname+'/files/products.json'
     }
-
+  
     createCode = (products)=>{
         let productFiltered;
         let createdCode ='';
